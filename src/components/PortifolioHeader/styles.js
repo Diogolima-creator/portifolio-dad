@@ -89,7 +89,7 @@ export const BodyTexts = styled.div`
   margin-right:250px;
 
   @media screen and (max-width: 1280px) {
-    margin-right:100px;
+    margin-right:10px;
   }
 `;
 

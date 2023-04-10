@@ -44,13 +44,13 @@ export const PortifolioJobsMade = () => {
           loop={true}
           breakpoints={{
             0:{
-              items:1
+              slidesPerView:1
             },
             1200:{
-                items:2
+              slidesPerView:2
             },
             1600:{
-                items:3
+              slidesPerView:3
             }
           }}
           >

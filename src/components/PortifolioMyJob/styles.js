@@ -14,6 +14,7 @@ export const Container = styled.div`
 export const Header = styled.div`
   width:100%;
   z-index:-1;
+
   h1{
     z-index:-1;
     top:-6%; 
@@ -25,7 +26,11 @@ export const Header = styled.div`
   }
 
   @media screen and (max-width: 1280px) {
-    left:21%;
+    h1{
+      top:0%;
+      left:0%;
+      font-size:246px;
+    }
   }
   
 `;
@@ -48,6 +53,6 @@ export const Body = styled.div`
   gap:0;
 
   @media screen and (max-width: 1280px) {
-    width:100%;
+    width:90%;
   }
 `;

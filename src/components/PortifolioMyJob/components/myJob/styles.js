@@ -14,6 +14,11 @@ export const Container = styled.div`
       background-color:black;
       color:white;
     }
+
+    @media screen and (max-width: 1280px) {
+      width: 350px;
+      height: 300px;
+    }
 `;
 
 export const Icon = styled.div`

@@ -15,7 +15,7 @@ export const PortifolioHeader = () => {
     <P.Container id='header'>
       <P.Header>
         <P.Title data-aos="fade-right" data-aos-once="true">
-          <img src='../../../../public/logo-diretriz-preta.png'></img>
+          <img src='https://user-images.githubusercontent.com/62246037/230955406-b8f5d8d5-01d6-4303-898b-62c0930619a8.png'></img>
         </P.Title>
         <P.Menu data-aos="fade-left" data-aos-once="true">
             <P.MenuItem href="#aboutMe">Sobre mim</P.MenuItem>

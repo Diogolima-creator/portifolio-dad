@@ -1,0 +1,6 @@
+export * from './PortifolioAboutMe'
+export * from './PortifolioContactMe'
+export * from './PortifolioHeader'
+export * from './PortifolioJobsMade'
+export * from './PortifolioMyJob'
+export * from './PortifolioFooter'

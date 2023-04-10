@@ -80,25 +80,17 @@ export const Body = styled.div`
   display:flex;
   align-items:end;
   justify-content:end;
-
-  animation: slide-top 0.75s ease-in; 
-
-  @keyframes slide-top {
-    0% {
-              opacity:0;
-              transform: translateY(200px);
-    }
-    100% {
-              opacity:1;
-              transform: translateY(0px);
-    }
-  }
+  
 `;
 
 export const BodyTexts = styled.div`
   color:white;
   width:600px;
   margin-right:250px;
+
+  @media screen and (max-width: 1280px) {
+    margin-right:100px;
+  }
 `;
 
 export const BodySubTitle = styled.h2`

@@ -42,6 +42,17 @@ export const PortifolioJobsMade = () => {
           pagination
           slidesPerView={3}
           loop={true}
+          breakpoints={{
+            0:{
+              items:1
+            },
+            1200:{
+                items:2
+            },
+            1600:{
+                items:3
+            }
+          }}
           >
           { cardJob.map(( card ) => (
               <SwiperSlide><CardJobMade img={card.img} text={card.text} /></SwiperSlide>

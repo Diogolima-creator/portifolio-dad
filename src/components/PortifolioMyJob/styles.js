@@ -23,6 +23,11 @@ export const Header = styled.div`
     color:grey;
     font-size:256px;
   }
+
+  @media screen and (max-width: 1280px) {
+    left:8%;
+  }
+  
 `;
 
 export const SubHeader = styled.div`
@@ -41,4 +46,8 @@ export const Body = styled.div`
   display:grid;
   grid-template-columns: auto auto auto;
   gap:0;
+
+  @media screen and (max-width: 1280px) {
+    width:100%;
+  }
 `;

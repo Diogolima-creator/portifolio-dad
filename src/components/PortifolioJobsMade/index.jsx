@@ -16,14 +16,14 @@ export const PortifolioJobsMade = () => {
     Aos.init({ duration:1000 })
 },[]);
 
-  const cardJob = [{ img: '../../../public/sobreOne.jpeg', text: 'lormep isum.'},
-  { img: '../../../public/sobreOne.jpeg', text: 'lormep isum.'},
-  { img: '../../../public/sobreOne.jpeg', text: 'lormep isum.'},
-  { img: '../../../public/sobreOne.jpeg', text: 'lormep isum.'},
-  { img: '../../../public/sobreOne.jpeg', text: 'lormep isum.'},
-  { img: '../../../public/sobreOne.jpeg', text: 'lormep isum.'},
-  { img: '../../../public/sobreOne.jpeg', text: 'lormep isum.'},
-  { img: '../../../public/sobreOne.jpeg', text: 'lormep isum.'}]
+  const cardJob = [{ img: 'https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg', text: 'lormep isum.'},
+  { img: 'https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg', text: 'lormep isum.'},
+  { img: 'https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg', text: 'lormep isum.'},
+  { img: 'https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg', text: 'lormep isum.'},
+  { img: 'https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg', text: 'lormep isum.'},
+  { img: 'https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg', text: 'lormep isum.'},
+  { img: 'https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg', text: 'lormep isum.'},
+  { img: 'https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg', text: 'lormep isum.'}]
   return(
 
     <P.Container data-aos="fade-up" data-aos-once="true" id='jobsMade'>

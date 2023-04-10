@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   height:100vh;
   width:100vw;
-  background:no-repeat url(../../../public/fundoHeader.jpeg);
+  background:no-repeat url(https://user-images.githubusercontent.com/62246037/230955347-e1414fb6-dbbe-47d6-8f3a-67bc914ba287.jpeg);
   background-size: 100% 100%;
   margin:0px;
   padding:0px;

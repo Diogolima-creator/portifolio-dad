@@ -14,6 +14,14 @@ export const Title = styled.p`
   font-size:38px;
   padding:0;
   margin:5;
+  
+  @media screen and (max-width: 1440px) {
+    font-size:26px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size:22px;
+  }
 `;
 
 export const Body = styled.div`
@@ -26,6 +34,8 @@ export const Body = styled.div`
   justify-content:center;
   flex-direction:column;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  
 `;
 
 export const Button = styled.button`

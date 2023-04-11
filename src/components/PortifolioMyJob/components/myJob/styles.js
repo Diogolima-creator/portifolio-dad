@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width:400px;
-    height:300px;
+    width:80%;
+    height:80%;
     padding:15px;
     margin:5px 0;
     cursor:default;
@@ -15,9 +15,9 @@ export const Container = styled.div`
       color:white;
     }
 
-    @media screen and (max-width: 1280px) {
-      width: 350px;
-      height: 300px;
+    @media screen and (max-width: 1024px) {
+      width:90%;
+      height:80%;
     }
 `;
 
@@ -33,6 +33,10 @@ export const Title = styled.h1`
   padding:0;
   cursor:default;
   letter-spacing:1px;
+
+  @media screen and (max-width:768px) {
+    font-size:14px;
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -42,4 +46,8 @@ export const Paragraph = styled.p`
     cursor:default;
     letter-spacing:0px;
     text-align: justify-all;
+
+    @media screen and (max-width:768px) {
+      font-size:12px;
+    }
 `;

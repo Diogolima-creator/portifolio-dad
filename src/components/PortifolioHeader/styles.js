@@ -14,27 +14,36 @@ export const Header = styled.div`
   display:flex;
   justify-content:space-evenly;
   align-items:center;
+
+  @media screen and (max-width: 768px) {
+    height:10%;
+  }
+
 `;
 
 export const Title = styled.div`
   padding:0;
   margin:0;
   color:white;
-  
+  width:40%;
+
+  @media screen and (max-width: 768px) {
+    width:40%;
+  }
 
   img{
     width:650px;
     height:450px;
-  }
 
-  @keyframes slide-left {
-    0% {
-              opacity:0;
-              transform: translate3d(-200px,0,0);
+    @media screen and (max-width: 768px) {
+      width:250px;
+      height:150px;
     }
-    100% {
-              opacity: 1;
-              transform: translate3d(0,0,0);
+
+    @media screen and (max-width: 1440px) {
+      width:350px;
+      height:250px;
+    }
   }
 
 `;
@@ -44,18 +53,6 @@ export const Menu = styled.div`
   align-items:center;
   height:100%;
 
-  
-
-  @keyframes slide-right {
-    0% {
-              opacity:0;
-              transform: translateX(200px);
-    }
-    100% {
-              opacity:1;
-              transform: translateX(0px);
-    }
-  }
 `;
 
 export const MenuItem = styled.a`
@@ -66,6 +63,15 @@ export const MenuItem = styled.a`
   font-size:16px;
   font-weight:700;
   text-decoration:none;
+
+  @media screen and (max-width: 1440px) {
+    font-size:14px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    font-size:12px;
+    margin:0 5px;
+  }
 
   :hover{
     transform:scale(1.1);
@@ -85,20 +91,41 @@ export const Body = styled.div`
 
 export const BodyTexts = styled.div`
   color:white;
-  width:600px;
-  margin-right:250px;
+  width: 45%;
 
-  @media screen and (max-width: 1280px) {
-    margin-right:10px;
+  @media screen and (max-width: 1440px) {
+    margin-right:0px;
   }
 `;
 
 export const BodySubTitle = styled.h2`
   font-size:26px;
+
+  
+  @media screen and (max-width: 1440px) {
+    font-size:20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size:16px;
+  }
 `;
 
 export const BodyTitle = styled.h1`
   font-size:36px;
+  
+  @media screen and (max-width: 1440px) {
+    font-size:30px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    font-size:26px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size:20px;
+  }
+
 `;
 
 

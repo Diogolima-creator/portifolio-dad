@@ -26,7 +26,7 @@ export const PortifolioHeader = () => {
         </P.Menu>
       </P.Header>
       <P.Body>
-        <P.BodyTexts data-aos="fade-top" data-aos-once="true">
+        <P.BodyTexts data-aos="fade-up" data-aos-once="true">
             <P.BodySubTitle>Olá, sou Gilvan Lima </P.BodySubTitle>
             <P.BodyTitle>Consultor e especialista em marketing político</P.BodyTitle>
         </P.BodyTexts>

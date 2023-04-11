@@ -46,10 +46,10 @@ export const PortifolioJobsMade = () => {
             0:{
               slidesPerView:1
             },
-            1200:{
+            1024:{
               slidesPerView:2
             },
-            1600:{
+            1440:{
               slidesPerView:3
             }
           }}

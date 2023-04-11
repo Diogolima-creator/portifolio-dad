@@ -25,14 +25,29 @@ export const Header = styled.div`
     font-size:256px;
   }
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1440px) {
+      h1{
+        top:-10%;
+        left:5%;
+        font-size:246px;
+      }
+  }
+
+  @media screen and (max-width: 1024px) {
     h1{
-      top:0%;
-      left:0%;
-      font-size:246px;
+      top:-10%;
+      left:5%;
+      font-size:186px;
     }
   }
-  
+
+  @media screen and (max-width: 768px) {
+    h1{
+      top:0%;
+      left:5%;
+      font-size:136px;
+    }
+  }
 `;
 
 export const SubHeader = styled.div`
@@ -43,6 +58,10 @@ export const SubHeader = styled.div`
 
 export const SubHeaderTitle = styled.h1`
   font-size:74px;
+
+  @media screen and (max-width:768px) {
+    font-size:54px;
+  }
 `;
 
 export const Body = styled.div`
@@ -52,7 +71,8 @@ export const Body = styled.div`
   grid-template-columns: auto auto auto;
   gap:0;
 
-  @media screen and (max-width: 1280px) {
+  @media screen and (max-width: 1440px) {
     width:90%;
+    height:100%;
   }
 `;

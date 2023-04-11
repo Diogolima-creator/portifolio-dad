@@ -12,7 +12,7 @@ export const Container = styled.div`
   justify-content:center;
   
   .swiper-wrapper{
-    height:500px;
+    height: 500px;
   }
 
   .swiper-pagination-bullet{
@@ -25,7 +25,11 @@ export const Title = styled.h1`
   font-size:74px;
   margin:0;
   padding:0;
-  margin-top:150px;
+  margin-top:5%;
+
+  @media screen and (max-width:768px) {
+    font-size:54px;
+  }
 `;
 
 
@@ -41,6 +45,30 @@ export const Header = styled.div`
     color:grey;
     font-size:256px;
   }
+
+  @media screen and (max-width: 1440px) {
+    h1{
+      top:2%;
+      left:8%;
+      font-size:216px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+  h1{
+    top:4%;
+    left:5%;
+    font-size:156px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1{
+    top:3%;
+    left:5%;
+    font-size:126px;
+  }
+}
 `;
 
 export const Body = styled.div`
@@ -49,5 +77,17 @@ export const Body = styled.div`
   display:flex;
   align-items:center;
   justify-content:center;
-  
+
+
+  @media screen and (max-width: 1440px) {
+    width:95%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    width:90%;
+  }
+
+  @media screen and (max-width: 768px) {
+    width:55%;
+  }
 `;

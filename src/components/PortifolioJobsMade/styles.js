@@ -83,6 +83,10 @@ export const Body = styled.div`
     width:95%;
   }
 
+  @media screen and (max-width: 1280px) {
+    width:80%;
+  }
+
   @media screen and (max-width: 1024px) {
     width:90%;
   }

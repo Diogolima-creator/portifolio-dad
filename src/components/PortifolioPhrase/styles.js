@@ -11,25 +11,25 @@ export const Container = styled.div`
   align-items:center;
   justify-content:center;
   padding:2% 0;
-  padding-bottom:7%;
+  padding-bottom:4%;
 `;
 
 export const Title = styled.h1`
-  width:70%;
+  width:50%;
   color:white;
-  font-size:26px;
+  font-size:20px;
   font-style:italic;
   text-align:center;
 
   @media screen and (max-width: 1440px) {
-    font-size:24px;
+    font-size:16px;
   }
 
   @media screen and (max-width: 1280px) {
-    font-size:20px;
+    font-size:14px;
   }
 
   @media screen and (max-width: 768px) {
-    font-size:16px;
+    font-size:12px;
   }
 `;

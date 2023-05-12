@@ -119,8 +119,9 @@ export const BodySubTitle = styled.h2`
 export const BodyTitle = styled.h1`
   font-size:36px;
   font-weight:normal;
-  width:60%;
-
+  width:100%;
+  margin:0;
+  
   span{
     font-weight:bold;
   }

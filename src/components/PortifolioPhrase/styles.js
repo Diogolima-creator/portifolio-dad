@@ -15,7 +15,19 @@ export const Container = styled.div`
 export const Title = styled.h1`
   width:70%;
   color:white;
-  font-size:28px;
+  font-size:26px;
   font-style:italic;
   text-align:center;
+
+  @media screen and (max-width: 1440px) {
+    font-size:24px;
+  }
+
+  @media screen and (max-width: 1280px) {
+    font-size:20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size:16px;
+  }
 `;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   height:100vh;
   width:100vw;
-  background-color: white;
+  background-color:#0D1214;
   margin:0px;
   padding:0px;
   display:flex;
@@ -11,13 +11,14 @@ export const Container = styled.div`
   align-items:center;
   justify-content:center;
   
+
   .swiper-wrapper{
     height: 500px;
   }
 
   .swiper-pagination-bullet{
     color:black;
-    background-color:black;
+    background-color:white;
   }
 `;
 
@@ -26,7 +27,7 @@ export const Title = styled.h1`
   margin:0;
   padding:0;
   margin-top:5%;
-
+  color:white;
   @media screen and (max-width:768px) {
     font-size:54px;
   }

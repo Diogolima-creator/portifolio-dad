@@ -1,0 +1,21 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+  height:100%;
+  width:100vw;
+  margin:0px;
+  padding:0px;
+  display:flex;
+  background-color:#0D1214;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+`;
+
+export const Title = styled.h1`
+  width:70%;
+  color:white;
+  font-size:28px;
+  font-style:italic;
+  text-align:center;
+`;

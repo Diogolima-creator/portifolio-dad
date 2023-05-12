@@ -6,6 +6,7 @@ export const Container = styled.div`
   margin:0px;
   padding:0px;
   display:flex;
+  background-color:#0D1214;
   flex-direction:column;
   align-items:center;
   justify-content:center;
@@ -58,7 +59,7 @@ export const SubHeader = styled.div`
 
 export const SubHeaderTitle = styled.h1`
   font-size:74px;
-
+  color:white;
   @media screen and (max-width:768px) {
     font-size:54px;
   }

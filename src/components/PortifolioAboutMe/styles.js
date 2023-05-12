@@ -5,6 +5,7 @@ export const Container = styled.div`
   width:100vw;
   margin:0px;
   padding:0px;
+  background-color:#0D1214;
   display:flex;
   align-items:Center;
   justify-content:center;
@@ -68,9 +69,11 @@ export const AboutMeTexts = styled.div`
 `;
 
 export const AboutMeTitle = styled.h1`
-  font-size:26px;
+  font-size:48px;
+  margin:20px 0;
   font-weight:700;
   text-align:start;
+  color:white;
 `;
 
 export const AboutMeParagraph = styled.p`
@@ -80,7 +83,8 @@ export const AboutMeParagraph = styled.p`
   line-height:1.25rem;
   letter-spacing:0px;
   text-align: justify;
-
+  color:white;
+  font-weight:500;
   @media screen and (max-width: 768px) {
     font-size:14px;
   }
@@ -91,7 +95,7 @@ export const AboutMeImg = styled.div`
     padding:20px;
     background: no-repeat url(https://user-images.githubusercontent.com/62246037/230955372-bf484e8e-7b9c-4c3c-adfe-dc85bca40b74.jpeg);
     background-size: 100% 100%;
-    transition:1.5s;
+    transition:1s;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     
     :hover{

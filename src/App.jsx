@@ -1,4 +1,5 @@
-import { PortifolioAboutMe, PortifolioHeader, PortifolioMyJob, PortifolioContactMe, PortifolioJobsMade, PortifolioFooter } from "./components";
+import { PortifolioAboutMe, PortifolioHeader, PortifolioMyJob, PortifolioContactMe, 
+  PortifolioJobsMade, PortifolioFooter, PortifolioPhrase} from "./components";
 
 
 function App() {
@@ -7,7 +8,7 @@ function App() {
       <PortifolioHeader />
       <PortifolioAboutMe />
       <PortifolioMyJob />
-      <PortifolioContactMe />
+      <PortifolioPhrase />
       <PortifolioJobsMade />
       <PortifolioFooter />  
     </>

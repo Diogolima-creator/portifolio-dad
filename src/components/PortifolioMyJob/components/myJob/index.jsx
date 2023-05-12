@@ -2,7 +2,7 @@ import * as M from './styles'
 
 
 
-export const MyJob = ({icon, title, paragraph}) => {
+export const MyJob = ({icon, title, paragraph, subtext}) => {
   return(
     <M.Container>
       <M.Icon>
@@ -14,6 +14,9 @@ export const MyJob = ({icon, title, paragraph}) => {
       <M.Paragraph>
           {paragraph}
       </M.Paragraph>
+      <M.SubTitleCircle>
+        <M.Circle/><M.SubTitle>{subtext}</M.SubTitle>
+      </M.SubTitleCircle>
     </M.Container>
   )
 }

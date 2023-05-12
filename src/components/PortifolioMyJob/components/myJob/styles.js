@@ -2,17 +2,18 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     width:80%;
-    height:80%;
-    padding:15px;
+    height:90%;
+    padding:20px;
     margin:5px 0;
     cursor:default;
     border-radius:15px;
-    
+    color:white;
+    transition:.5s;
+
     :hover{
-      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-      transition:.5s;
-      background-color:black;
+      box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
       color:white;
+      transform:scale(1.01);
     }
 
     @media screen and (max-width: 1024px) {
@@ -24,7 +25,37 @@ export const Container = styled.div`
 export const Icon = styled.div`
   width:85px;
   height:85px;
+  color:#fcd79a;
+`;
 
+export const SubTitleCircle = styled.div`
+    display:flex;
+    margin-top:15%;
+    width:100%;
+    align-items:start;
+    justify-content:start;
+`;
+
+
+export const SubTitle = styled.p`
+    font-weight:bold;
+    font-style:italic;
+    margin:0px;
+    font-size:14px;
+    padding:0;
+    width:80%;
+    height:100%;
+    text-align: justify-all;
+`;
+
+export const Circle = styled.div`
+      display:flex;
+      padding:7px;
+      width:3px;
+      margin-right:5px;
+      height:2px;
+      background-color:#fcd79a;
+      border-radius:45px;
 `;
 
 export const Title = styled.h1`
@@ -33,6 +64,8 @@ export const Title = styled.h1`
   padding:0;
   cursor:default;
   letter-spacing:1px;
+  color:#fcd79a;
+
 
   @media screen and (max-width:768px) {
     font-size:14px;

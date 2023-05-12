@@ -75,7 +75,7 @@ export const MenuItem = styled.a`
 
   :hover{
     transform:scale(1.1);
-    color:black;
+    color:#fcd79a;
     transition:.5s;
   }
 `;
@@ -99,9 +99,14 @@ export const BodyTexts = styled.div`
 `;
 
 export const BodySubTitle = styled.h2`
-  font-size:26px;
+  font-size:28px;
+  font-weight:normal;
 
-  
+  span{
+    color:Black;
+    font-weight:bold;
+  }
+
   @media screen and (max-width: 1440px) {
     font-size:20px;
   }
@@ -113,7 +118,12 @@ export const BodySubTitle = styled.h2`
 
 export const BodyTitle = styled.h1`
   font-size:36px;
-  
+  font-weight:normal;
+  width:70%;
+
+  span{
+    font-weight:bold;
+  }
   @media screen and (max-width: 1440px) {
     font-size:30px;
   }

@@ -3,18 +3,20 @@ import styled from "styled-components";
 export const Container = styled.div`
     width:370px;
     height:390px;
-    background-color:transparent;
+    background-color:black;
     display:flex;
     flex-direction:Column;
     padding:15px;
     border-radius:5px;
     align-items:center;
     justify-content:center;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor:pointer;
+
     :hover{
       background-color:black; 
       transition:.5s;
+      
       p{
         color:White;
       }
@@ -29,7 +31,7 @@ export const Img = styled.img`
 
 export const Text = styled.p`
   background-color:transparent;
-  color:black;
+  color:white;
   margin:0;
   text-align:center;
   padding:20px 0;

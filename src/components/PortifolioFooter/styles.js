@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height:30vh;
+  height:100%;
   width:100vw; 
   margin:0px;
   padding:0px;
-  background-color:black;
+  background-color:#0D1214;
   display:Flex;
   align-items:center;
   justify-content:center;
@@ -19,10 +19,10 @@ export const Container = styled.div`
   .icon{
     padding:5px;
     cursor:pointer;
-    background-color:black;
+    background-color:#0D1214;
     color: white;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    border-color:black;
+    border-color:#0D1214;
   }
 
 `;

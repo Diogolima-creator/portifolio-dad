@@ -8,8 +8,8 @@ function App() {
       <PortifolioHeader />
       <PortifolioAboutMe />
       <PortifolioMyJob />
-      <PortifolioPhrase />
       <PortifolioJobsMade />
+      <PortifolioPhrase />
       <PortifolioFooter />  
     </>
   )

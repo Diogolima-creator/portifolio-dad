@@ -10,6 +10,8 @@ export const Container = styled.div`
   flex-direction:column;
   align-items:center;
   justify-content:center;
+  padding:2% 0;
+  padding-bottom:7%;
 `;
 
 export const Title = styled.h1`

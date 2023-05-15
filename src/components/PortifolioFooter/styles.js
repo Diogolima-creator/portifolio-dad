@@ -14,6 +14,10 @@ export const Container = styled.div`
   p{
     padding-top:15px;
     color:white;
+
+    @media screen and (max-width: 425px) {
+      font-size:9px;
+    }
   }
 
   .icon{
@@ -48,6 +52,12 @@ export const Socials = styled.div`
       background-color:White;
       color:black;
       transition:.3s;
+    }
+
+    @media screen and (max-width: 425px) {
+      width:35px;
+      height:35px;
+      padding:4px;
     }
   }
 `;

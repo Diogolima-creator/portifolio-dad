@@ -10,8 +10,8 @@ export const Container = styled.div`
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  padding:2% 0;
-  padding-bottom:4%;
+  padding:4% 0;
+  padding-top:0;
 `;
 
 export const Title = styled.h1`
@@ -31,5 +31,10 @@ export const Title = styled.h1`
 
   @media screen and (max-width: 768px) {
     font-size:12px;
+  }
+
+  @media screen and (max-width: 425px) {
+    width:100%;
+    font-size:9px;
   }
 `;

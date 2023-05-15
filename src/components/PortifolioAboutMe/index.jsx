@@ -17,7 +17,7 @@ export const PortifolioAboutMe = () => {
       <P.AboutMe>
          <P.AboutMeTexts>
               <P.AboutMeTitle>
-              Quem sou eu
+              QUEM <span>SOU EU</span>
               </P.AboutMeTitle>
               <P.AboutMeParagraph>
               {'Com 32 anos de experiência na atuação política de Mato Grosso do Sul, meu trabalho faz presente em dezenas de candidaturas vencedoras que auxiliam na construção política de todo o estado. Realizo coordenação política estratégica de campanha e presto consultoria para candidaturas e mandatos de Vereadores, Prefeitos, Deputados Estaduais, Deputados Federais, Senadores e Governadores.'}

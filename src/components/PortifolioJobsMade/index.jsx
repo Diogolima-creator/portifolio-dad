@@ -30,7 +30,9 @@ export const PortifolioJobsMade = () => {
       <P.Header>
           <h1>Realizados</h1>
       </P.Header>
-          <P.Title>Trabalhos Realizados</P.Title>
+      <P.TitleDiv>
+        <P.Title>TRABALHOS <span>REALIZADOS</span></P.Title>
+      </P.TitleDiv>
       <P.Body>
         <Swiper
           modules={[ Pagination, Autoplay]}

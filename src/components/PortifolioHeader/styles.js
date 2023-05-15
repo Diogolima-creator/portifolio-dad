@@ -7,6 +7,9 @@ export const Container = styled.div`
   background-size: 100% 100%;
   margin:0px;
   padding:0px;
+  display:flex;
+  flex-direction:column;
+
 `;
 
 export const Header = styled.div`
@@ -14,9 +17,14 @@ export const Header = styled.div`
   display:flex;
   justify-content:space-evenly;
   align-items:center;
-
+  
   @media screen and (max-width: 768px) {
     height:10%;
+  }
+
+  @media screen and (max-width: 425px) {
+    align-items:start;
+    justify-content:start;
   }
 
 `;
@@ -26,24 +34,28 @@ export const Title = styled.div`
   margin:0;
   color:white;
   width:40%;
-
+  
   @media screen and (max-width: 768px) {
     width:40%;
+  }
+
+  @media screen and (max-width: 425px) {
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100%;
   }
 
   img{
     width:650px;
     height:450px;
 
-    @media screen and (max-width: 768px) {
-      width:250px;
-      height:150px;
-    }
-
     @media screen and (max-width: 1440px) {
       width:350px;
       height:250px;
     }
+    
+
   }
 
 `;
@@ -52,6 +64,10 @@ export const Menu = styled.div`
   display:flex;
   align-items:center;
   height:100%;
+
+  @media screen and (max-width: 425px) {
+    display:none;
+  }
 
 `;
 

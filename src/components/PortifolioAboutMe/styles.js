@@ -9,6 +9,10 @@ export const Container = styled.div`
   display:flex;
   align-items:Center;
   justify-content:center;
+
+  @media screen and (max-width: 425px) {
+    height:100vh;
+  }
 `;
 
 export const Header = styled.div`
@@ -39,11 +43,17 @@ export const Header = styled.div`
 
   @media screen and (max-width: 768px) {
     h1{
-      top:-23%;
+      top:-19%;
       font-size:144px;
     }
   }
 
+  @media screen and (max-width: 425px) {
+    h1{
+      top:-9%;
+      font-size:96px;
+    }
+  }
 `;
 
 export const AboutMe = styled.div`
@@ -66,14 +76,47 @@ export const AboutMeTexts = styled.div`
     width:50%;
     padding:10px;
   }
+
+  @media screen and (max-width: 425px) {
+    font-size:16px;
+    width:100%;
+  }
+  
 `;
 
 export const AboutMeTitle = styled.h1`
-  font-size:48px;
+  font-size:34px;
   margin:20px 0;
-  font-weight:700;
+  width:90%;
+  font-weight:300;
   text-align:start;
-  color:white;
+  color:black;
+  padding:8px 24px;
+  background: linear-gradient(135deg, rgba(252, 215, 154, 1) 80%, transparent 20%);
+  
+  span{
+    font-weight:bold;
+  }
+
+  @media screen and (max-width: 1440px) {
+      font-size:28px;
+      padding:8px 12px;
+  }
+
+  @media screen and (max-width: 1024px) {
+      font-size:22px;
+      width:100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size:20px;
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size:16px;
+    width:90%;
+  }
+
 `;
 
 export const AboutMeParagraph = styled.p`
@@ -85,8 +128,12 @@ export const AboutMeParagraph = styled.p`
   text-align: justify;
   color:white;
   font-weight:500;
+
   @media screen and (max-width: 768px) {
     font-size:14px;
+  }
+  @media screen and (max-width: 425px) {
+    font-size:10px;
   }
 `;
 

@@ -21,6 +21,10 @@ export const Container = styled.div`
         color:White;
       }
     }
+    
+    @media screen and (max-width: 425px) {
+      width:100%; 
+    }
 `;
 
 export const Img = styled.img`

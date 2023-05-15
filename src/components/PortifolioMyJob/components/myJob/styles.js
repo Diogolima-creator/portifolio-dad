@@ -20,6 +20,10 @@ export const Container = styled.div`
       width:90%;
       height:80%;
     }
+
+    @media screen and (max-width: 425px) {
+      height:95%;
+    }
 `;
 
 export const Icon = styled.div`
@@ -34,6 +38,8 @@ export const SubTitleCircle = styled.div`
     width:100%;
     align-items:start;
     justify-content:start;
+
+    
 `;
 
 
@@ -46,6 +52,10 @@ export const SubTitle = styled.p`
     width:80%;
     height:100%;
     text-align: justify-all;
+
+    @media screen and (max-width: 425px) {
+      font-size:11px;
+    }
 `;
 
 export const Circle = styled.div`

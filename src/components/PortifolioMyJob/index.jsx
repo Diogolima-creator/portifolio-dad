@@ -58,11 +58,11 @@ export const PortifolioMyJob = () => {
   return(
     <P.Container data-aos="fade-up" data-aos-once="true" id="myJob">
       <P.Header>
-          <h1>Trabalhos</h1>
+          <h1>TRABALHOS</h1>
       </P.Header>
       <P.SubHeader>
        <P.SubHeaderTitle>
-        Metodologia de Trabalho 
+        MEU <span>TRABALHO</span>
       </P.SubHeaderTitle>
       </P.SubHeader>
       <P.Body>

@@ -27,14 +27,14 @@ export const Header = styled.div`
     position:absolute;
     opacity:.1;
     color:grey;
-    font-size:256px;
+    font-size:206px;
   }
 
   @media screen and (max-width: 1440px) {
       h1{
         top:-10%;
         left:5%;
-        font-size:246px;
+        font-size:176px;
       }
   }
 
@@ -42,7 +42,7 @@ export const Header = styled.div`
     h1{
       top:-10%;
       left:5%;
-      font-size:186px;
+      font-size:146px;
     }
   }
 
